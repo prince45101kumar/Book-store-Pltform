@@ -1,0 +1,27 @@
+# BookStore Pro v2.0
+
+A React.js based online bookstore web app.
+
+## What's New in v2.0
+* Renamed branding to BookStore across headers, footers, and invoices.
+* Added live order tracking with step-by-step parcel timeline (Placed -> Packed -> In Transit -> Out for Delivery -> Delivered).
+* Shows courier partner details, AWB numbers, and transit location. Admin can also update location manually.
+* Created user dashboard to track total books bought, total expense, active orders, and wallet balance.
+* Added printable GST tax invoice modal with direct window.print() support.
+* Fixed syntax issues and unescaped apostrophe bugs.
+
+## How to Run
+
+1. Open project folder in terminal / VS Code.
+2. Install dependencies:
+   npm install
+
+3. Run the project:
+   npm start
+
+Local server will start at http://localhost:3000.
+
+## Demo Accounts & Coupons
+* Student Login: Prince Kumar
+* Admin Login: Store Admin / Manager
+* Checkout Coupon: Use `BOOK50` for 50% off.
